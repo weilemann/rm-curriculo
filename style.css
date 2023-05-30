@@ -1,0 +1,142 @@
+* {
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    color: rgb(46, 46, 46);
+}
+
+html, body {
+    margin: 0;
+    min-height: 100%;
+    background-color: rgb(217, 217, 217);
+}
+
+ul {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+}
+
+#container {
+    height: 100%;
+    width: 60%;
+    margin: 0 auto;
+    background-color: rgb(255, 255, 255);
+    padding: 20px 0;
+}
+
+#titleContainer {
+    width: 100%;
+    text-align: center;
+}
+
+.title {
+    margin: 0;
+    font-size: 40px;
+}
+
+.section {
+    padding: 30px 50px;
+    font-size: 24px;
+    text-decoration: underline;
+}
+
+.start {
+    padding: 0;
+}
+
+#personalContainer {
+    height: 300px;
+    padding: 20px 50px;
+    display: flex;
+    align-items: center;
+    gap: 20px;
+}
+
+#personalContainer img {
+    width: 400px;
+    height: 400px;
+    border-radius: 50%;
+    object-fit: cover;
+}
+
+#infoContainer {
+    height: 100%;
+    width: 100%;
+    padding: 0 20px;
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    gap: 15px;
+}
+
+.caption {
+    margin: 0;
+}
+
+#experienceContainer {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    gap: 20px;
+    padding: 0px 50px;
+}
+
+.jobContainer {
+    display: flex;
+    flex-direction: column;
+    gap: 7px;
+}
+
+.jobTitle {
+    margin: 0;
+    color: rgb(46, 46, 46);
+    text-decoration: underline;
+}
+
+.company {
+    margin: 0;
+    color: rgb(105, 105, 105);
+    display: flex;
+    align-items: center;
+    gap: 10px;
+}
+
+.company img {
+    width: 30px;
+    height: 30px;
+}
+
+#socialMediaContainer {
+    padding: 0 50px;
+}
+
+#socialMediaContainer ul {
+    display: flex;
+    flex-direction: column;
+    gap: 7px;
+}
+
+#socialMediaContainer li {
+    text-decoration: none;
+    display: flex;
+    align-items: center;
+    gap: 10px;
+}
+
+#socialMediaContainer li a {
+    text-decoration: one;
+    display: flex;
+    align-items: center;
+    gap: 10px;
+    text-decoration: none;
+    color: rgb(46, 46, 46);
+    transition: transform .4s;
+}
+
+#socialMediaContainer li a:hover {
+    transform: scale(1.1);
+}
+
+#socialMediaContainer li img {
+    width: 30px;
+    height: 30px;
+}
